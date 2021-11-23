@@ -12,14 +12,14 @@ pip install mmcv-full==1.3.8 --no-cache-dir
 pip install -v -e .
 ```
 
-## Data Path
+## Set Data Path
 ```
 ln -s /userhome/MSCOCO2017/annotations data/coco/annotations
 ln -s /userhome/MSCOCO2017/train2017 data/coco/train2017
 ln -s /userhome/MSCOCO2017/val2017 data/coco/val2017
 ```
 
-## Training and Evaluate on validation 
+## Training and Evaluate on validation dataset 
 
 Create a training and inference shell script contains following command.
 
